@@ -45,7 +45,7 @@ class ReminderAddViewController: UIViewController,UIImagePickerControllerDelegat
                 print("Permission Denied")
             }
         }
-        
+        print("REMINDERRR")
         self.hideKeyboardWhenTappedAround()
         let image = reminderImageView.image
         
@@ -126,8 +126,36 @@ class ReminderAddViewController: UIViewController,UIImagePickerControllerDelegat
     }
     
     func updateContext(){
-        print("Update Code Area Here")
+        let entity = NSEntityDescription.entity(forEntityName: "List", in: context)
+                let request = NSFetchRequest<NSFetchRequestResult>()
+                request.entity = entity
+                let newName = UserDefaults.standard.value(forKey: "name") as! String
+                let predicate = NSPredicate(format: "(name = %@)", reminderNameTextfield.text!)
+                request.predicate = predicate
         
+                do {
+                    let results = try context.fetch(request)
+                    let objectUpdate = results[0] as! NSManagedObject
+                    selectedImage = reminderImageView.image
+                    let imageAsNSData = selectedImage?.jpegData(compressionQuality: 1)
+                    objectUpdate.setValue(reminderNameTextfield.text, forKey: "name")
+                    objectUpdate.setValue(formattedDate(date: reminderDatePicker.date), forKey: "date")
+                    objectUpdate.setValue(reminderDescriptionTextfield.text, forKey: "desc")
+                    objectUpdate.setValue(imageAsNSData, forKey: "image")
+
+                    do {
+                        try context.save()
+                        print("Ok")
+                    }catch let error as NSError {
+                      print("Error \(error)")
+                    }
+                }
+                catch let error as NSError {
+                    print("Error \(error)")
+                }
+        
+    
+       
     }
     
     func saveContext(){
