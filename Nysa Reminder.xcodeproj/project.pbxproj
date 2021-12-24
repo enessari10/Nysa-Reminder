@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6C24442774A28B0075CBFA /* ReminderAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C24432774A28B0075CBFA /* ReminderAddViewController.swift */; };
+		BCC41F4E276A87B6002B32FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F4D276A87B6002B32FD /* AppDelegate.swift */; };
+		BCC41F50276A87B6002B32FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F4F276A87B6002B32FD /* SceneDelegate.swift */; };
+		BCC41F52276A87B6002B32FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F51276A87B6002B32FD /* ViewController.swift */; };
+		BCC41F55276A87B6002B32FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F53276A87B6002B32FD /* Main.storyboard */; };
+		BCC41F58276A87B6002B32FD /* Nysa_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F56276A87B6002B32FD /* Nysa_Reminder.xcdatamodeld */; };
+		BCC41F5A276A87B6002B32FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F59276A87B6002B32FD /* Assets.xcassets */; };
+		BCC41F5D276A87B6002B32FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F5B276A87B6002B32FD /* LaunchScreen.storyboard */; };
+		BCC41F69276A8B41002B32FD /* Silka.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCC41F68276A8B15002B32FD /* Silka.otf */; };
+		BCC41F6C276A9707002B32FD /* AddReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F6B276A9707002B32FD /* AddReminderTableViewCell.swift */; };
+		BCC41F70276A98BB002B32FD /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC41F6F276A98BB002B32FD /* MainTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC6C24432774A28B0075CBFA /* ReminderAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderAddViewController.swift; sourceTree = "<group>"; };
+		BCC41F4A276A87B6002B32FD /* Nysa Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nysa Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC41F4D276A87B6002B32FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCC41F4F276A87B6002B32FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCC41F51276A87B6002B32FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCC41F54276A87B6002B32FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCC41F57276A87B6002B32FD /* Nysa_Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nysa_Reminder.xcdatamodel; sourceTree = "<group>"; };
+		BCC41F59276A87B6002B32FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC41F5C276A87B6002B32FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCC41F5E276A87B6002B32FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC41F68276A8B15002B32FD /* Silka.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silka.otf; sourceTree = "<group>"; };
+		BCC41F6B276A9707002B32FD /* AddReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderTableViewCell.swift; sourceTree = "<group>"; };
+		BCC41F6F276A98BB002B32FD /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC41F47276A87B6002B32FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC41F41276A87B6002B32FD = {
+			isa = PBXGroup;
+			children = (
+				BCC41F4C276A87B6002B32FD /* Nysa Reminder */,
+				BCC41F4B276A87B6002B32FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC41F4B276A87B6002B32FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F4A276A87B6002B32FD /* Nysa Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC41F4C276A87B6002B32FD /* Nysa Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F6A276A96F1002B32FD /* Cells */,
+				BCC41F67276A8B0F002B32FD /* Font */,
+				BCC41F66276A87CB002B32FD /* Support Files */,
+				BCC41F65276A87C6002B32FD /* Controller */,
+				BCC41F64276A87C1002B32FD /* View */,
+				BCC41F59276A87B6002B32FD /* Assets.xcassets */,
+				BCC41F5E276A87B6002B32FD /* Info.plist */,
+				BCC41F56276A87B6002B32FD /* Nysa_Reminder.xcdatamodeld */,
+			);
+			path = "Nysa Reminder";
+			sourceTree = "<group>";
+		};
+		BCC41F64276A87C1002B32FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F53276A87B6002B32FD /* Main.storyboard */,
+				BCC41F5B276A87B6002B32FD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCC41F65276A87C6002B32FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F51276A87B6002B32FD /* ViewController.swift */,
+				BC6C24432774A28B0075CBFA /* ReminderAddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCC41F66276A87CB002B32FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F4D276A87B6002B32FD /* AppDelegate.swift */,
+				BCC41F4F276A87B6002B32FD /* SceneDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		BCC41F67276A8B0F002B32FD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F68276A8B15002B32FD /* Silka.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BCC41F6A276A96F1002B32FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BCC41F6B276A9707002B32FD /* AddReminderTableViewCell.swift */,
+				BCC41F6F276A98BB002B32FD /* MainTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC41F49276A87B6002B32FD /* Nysa Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC41F61276A87B6002B32FD /* Build configuration list for PBXNativeTarget "Nysa Reminder" */;
+			buildPhases = (
+				BCC41F46276A87B6002B32FD /* Sources */,
+				BCC41F47276A87B6002B32FD /* Frameworks */,
+				BCC41F48276A87B6002B32FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nysa Reminder";
+			productName = "Nysa Reminder";
+			productReference = BCC41F4A276A87B6002B32FD /* Nysa Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC41F42276A87B6002B32FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BCC41F49276A87B6002B32FD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BCC41F45276A87B6002B32FD /* Build configuration list for PBXProject "Nysa Reminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC41F41276A87B6002B32FD;
+			productRefGroup = BCC41F4B276A87B6002B32FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC41F49276A87B6002B32FD /* Nysa Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC41F48276A87B6002B32FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC41F69276A8B41002B32FD /* Silka.otf in Resources */,
+				BCC41F5D276A87B6002B32FD /* LaunchScreen.storyboard in Resources */,
+				BCC41F5A276A87B6002B32FD /* Assets.xcassets in Resources */,
+				BCC41F55276A87B6002B32FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC41F46276A87B6002B32FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6C24442774A28B0075CBFA /* ReminderAddViewController.swift in Sources */,
+				BCC41F6C276A9707002B32FD /* AddReminderTableViewCell.swift in Sources */,
+				BCC41F52276A87B6002B32FD /* ViewController.swift in Sources */,
+				BCC41F4E276A87B6002B32FD /* AppDelegate.swift in Sources */,
+				BCC41F70276A98BB002B32FD /* MainTableViewCell.swift in Sources */,
+				BCC41F58276A87B6002B32FD /* Nysa_Reminder.xcdatamodeld in Sources */,
+				BCC41F50276A87B6002B32FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC41F53276A87B6002B32FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC41F54276A87B6002B32FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCC41F5B276A87B6002B32FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC41F5C276A87B6002B32FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC41F5F276A87B6002B32FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC41F60276A87B6002B32FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC41F62276A87B6002B32FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HN7DT422;
+				INFOPLIST_FILE = "Nysa Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enessari.Nysa-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC41F63276A87B6002B32FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HN7DT422;
+				INFOPLIST_FILE = "Nysa Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enessari.Nysa-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC41F45276A87B6002B32FD /* Build configuration list for PBXProject "Nysa Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC41F5F276A87B6002B32FD /* Debug */,
+				BCC41F60276A87B6002B32FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC41F61276A87B6002B32FD /* Build configuration list for PBXNativeTarget "Nysa Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC41F62276A87B6002B32FD /* Debug */,
+				BCC41F63276A87B6002B32FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCC41F56276A87B6002B32FD /* Nysa_Reminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCC41F57276A87B6002B32FD /* Nysa_Reminder.xcdatamodel */,
+			);
+			currentVersion = BCC41F57276A87B6002B32FD /* Nysa_Reminder.xcdatamodel */;
+			path = Nysa_Reminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCC41F42276A87B6002B32FD /* Project object */;
+}
