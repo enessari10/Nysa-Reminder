@@ -46,7 +46,7 @@ class AddReminderTableViewCell: UITableViewCell, UIImagePickerControllerDelegate
     }
     
     @IBAction func addButtonPressed(_ sender: UIButton) {
-        
+        print("enes deneme")
         guard let name = reminderName.text else {return}
         guard let desc = reminderDesc.text else {return}
         delegate?.viewData(reminderName: name, reminderDesc: desc, reminderDate: reminderDate.date)
