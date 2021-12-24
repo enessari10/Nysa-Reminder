@@ -39,7 +39,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSo-Hz-UQ6">
-                                                    <rect key="frame" x="81" y="11" width="39.333333333333343" height="21"/>
+                                                    <rect key="frame" x="81" y="11" width="43.333333333333343" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="1yI-yJ-I6L"/>
                                                     </constraints>
@@ -95,43 +95,66 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxc-yQ-o0y">
                                 <rect key="frame" x="0.0" y="88" width="414" height="60"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmR-XZ-qfD">
-                                        <rect key="frame" x="280" y="10" width="124" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmR-XZ-qfD">
+                                        <rect key="frame" x="258" y="15" width="124" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="124" id="Kbd-rC-HWX"/>
+                                            <constraint firstAttribute="height" constant="30" id="XF0-SA-TzT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                         <state key="normal" title="Sort in Reverse">
-                                            <color key="titleColor" name="AccentColor"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="shortReverseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yfl-UO-5iL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLD-bh-M3t">
-                                        <rect key="frame" x="13" y="10" width="124" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLD-bh-M3t">
+                                        <rect key="frame" x="8" y="15" width="124" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="124" id="5nL-ck-O6O"/>
+                                            <constraint firstAttribute="height" constant="30" id="MR3-iw-jsQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                         <state key="normal" title="by Date">
-                                            <color key="titleColor" name="AccentColor"/>
+                                            <color key="titleColor" red="0.87058823529999996" green="0.90980392160000001" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="shortDateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nxZ-cp-b4h"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqj-hc-jXY">
-                                        <rect key="frame" x="145" y="10" width="124" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqj-hc-jXY">
+                                        <rect key="frame" x="126" y="15" width="124" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Dkd-VO-1BL"/>
+                                            <constraint firstAttribute="width" constant="124" id="wKh-da-ocH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
                                         <state key="normal" title="Alfabetic">
-                                            <color key="titleColor" name="AccentColor"/>
+                                            <color key="titleColor" red="0.87058823529999996" green="0.90980392160000001" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="shortAlfabeticButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5X-Ln-ZDg"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" name="OpacityColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="HmR-XZ-qfD" secondAttribute="bottom" constant="15" id="1Qc-XD-bGE"/>
+                                    <constraint firstItem="HmR-XZ-qfD" firstAttribute="top" secondItem="vxc-yQ-o0y" secondAttribute="top" constant="15" id="AfD-s1-ErA"/>
                                     <constraint firstAttribute="width" constant="414" id="Egz-gn-lad"/>
+                                    <constraint firstItem="fqj-hc-jXY" firstAttribute="leading" secondItem="vxc-yQ-o0y" secondAttribute="leading" constant="126" id="Ki5-mn-faF"/>
+                                    <constraint firstItem="fqj-hc-jXY" firstAttribute="top" secondItem="vxc-yQ-o0y" secondAttribute="top" constant="15" id="Lyg-gD-vav"/>
+                                    <constraint firstAttribute="bottom" secondItem="jLD-bh-M3t" secondAttribute="bottom" constant="15" id="RHr-oK-l0U"/>
+                                    <constraint firstItem="HmR-XZ-qfD" firstAttribute="leading" secondItem="fqj-hc-jXY" secondAttribute="trailing" constant="8" symbolic="YES" id="UO9-ZY-6a7"/>
+                                    <constraint firstItem="jLD-bh-M3t" firstAttribute="leading" secondItem="vxc-yQ-o0y" secondAttribute="leadingMargin" id="WE9-2o-6eV"/>
+                                    <constraint firstItem="jLD-bh-M3t" firstAttribute="top" secondItem="vxc-yQ-o0y" secondAttribute="top" constant="15" id="nIf-bC-Ko9"/>
+                                    <constraint firstItem="jLD-bh-M3t" firstAttribute="width" secondItem="fqj-hc-jXY" secondAttribute="width" id="pff-rz-hXV"/>
+                                    <constraint firstAttribute="bottom" secondItem="fqj-hc-jXY" secondAttribute="bottom" constant="15" id="wDW-qZ-Wqt"/>
+                                    <constraint firstItem="fqj-hc-jXY" firstAttribute="width" secondItem="HmR-XZ-qfD" secondAttribute="width" id="xZi-Nr-ICI"/>
                                     <constraint firstAttribute="height" constant="60" id="yAX-IU-5dI"/>
                                 </constraints>
                             </view>
@@ -359,6 +382,9 @@
         <image name="user" width="170.66667175292969" height="170.66667175292969"/>
         <namedColor name="AccentColor">
             <color red="1" green="0.33300000429153442" blue="0.45899999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="OpacityColor">
+            <color red="1" green="0.33300000429153442" blue="0.45899999141693115" alpha="0.60799998044967651" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

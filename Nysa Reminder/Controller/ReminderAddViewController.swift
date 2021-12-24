@@ -155,7 +155,8 @@ class ReminderAddViewController: UIViewController,UIImagePickerControllerDelegat
                 }
         
     
-       
+    
+
     }
     
     func saveContext(){
