@@ -126,7 +126,7 @@ class ReminderAddViewController: UIViewController,UIImagePickerControllerDelegat
     }
     
     func updateContext(){
-        print("Update Code Here")
+        print("Update Code Area Here")
         
     }
     
